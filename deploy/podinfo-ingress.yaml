@@ -9,7 +9,7 @@ metadata:
   namespace: dev
 spec:
   rules:
-  - host: training-user-33.training.weave.works
+  - host: "*.training.weave.works"
     http:
       paths:
       - backend:
