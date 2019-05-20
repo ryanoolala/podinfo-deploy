@@ -9,11 +9,10 @@ metadata:
   namespace: dev
 spec:
   rules:
-  - http:
+  - host: training-user-33.training.weave.works
+    http:
       paths:
       - backend:
           serviceName: mighty-fine
           servicePort: 3000
         path: /mighty-fine
-status:
-  loadBalancer: {}
